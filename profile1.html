@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Thi Profile Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="THI PROFILE DEMO" name="description" />
+        <meta content="603040955-8" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/icon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            <!-- Topbar Start -->
+            <div class="navbar-custom">
+                <ul class="list-unstyled topnav-menu float-right mb-0">
+
+                    <li class="d-none d-sm-block">
+                        <form class="app-search">
+                            <div class="app-search-box">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <div class="input-group-append">
+                                        <button class="btn" type="submit">
+                                            <i class="fe-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+        
+                
+                    <li class="dropdown notification-list">
+                        <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <img src="assets/images/users/profile-1.jpg" alt="user-image" class="rounded-circle">
+                            <span class="pro-user-name ml-1">
+                                THIRAWIT C <i class="mdi mdi-chevron-down"></i> 
+                            </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                            <!-- item-->
+                            <div class="dropdown-header noti-title">
+                                <h6 class="text-overflow m-0">Hello !</h6>
+                            </div>
+
+                            <!-- my acc-->
+                            <a href="profile1.html" class="dropdown-item notify-item">
+                                <i class="fe-user"></i>
+                                <span>My Account</span>
+                            </a>
+
+                            <!-- sett-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fe-settings"></i>
+                                <span>Settings</span>
+                            </a>
+
+                            <!-- switch user-->
+                            <a href="switchuser.html" class="dropdown-item notify-item">
+                                <i class="fe-lock"></i>
+                                <span>Switch User</span>
+                            </a>
+
+                            <div class="dropdown-divider"></div>
+
+                            <!-- logout-->
+                            <a href="logout.html" class="dropdown-item notify-item">
+                                <i class="fe-log-out"></i>
+                                <span>Logout</span>
+                            </a>
+
+                        </div>
+                    </li>
+
+
+                </ul>
+
+                <!-- LOGO -->
+                <div class="logo-box">
+                    <a href="index.html" class="logo text-center">
+                        <span class="logo-lg">
+                            <img src="assets/images/logoo.png" alt="" height="18">
+                            <!-- <span class="logo-lg-text-light">UBold</span> -->
+                        </span>
+                        <span class="logo-sm">
+                            <!-- <span class="logo-sm-text-dark">U</span> -->
+                            <img src="assets/images/logosm.png" alt="" height="24">
+                        </span>
+                    </a>
+                </div>
+
+                <ul class="list-unstyled topnav-menu topnav-menu-left m-0">
+                    <li>
+                        <button class="button-menu-mobile waves-effect waves-light">
+                            <i class="fe-menu"></i>
+                        </button>
+                    </li>
+        
+                    <li class="dropdown d-none d-lg-block">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            New
+                            <i class="mdi mdi-chevron-down"></i> 
+                        </a>
+                        <div class="dropdown-menu">
+                            
+
+                            <!-- Create Users-->
+                            <a href="adduser.html" class="dropdown-item">
+                                <i class="fe-user mr-1"></i>
+                                <span>Create Users</span>
+                            </a>
+                            
+                            <!-- New Couse-->
+                            <a href="subjectadd.html" class="dropdown-item">
+                                <i class="fe-user mr-1"></i>
+                                <span>Course</span>
+                            </a>
+                            
+                            <!-- New Fee-->
+                            <a href="fee.html" class="dropdown-item">
+                                <i class="fe-user mr-1"></i>
+                                <span>Fee</span>
+                            </a>
+                            
+                            <!-- Attendance-->
+                            <a href="adten.html" class="dropdown-item">
+                                <i class="fe-user mr-1"></i>
+                                <span>Attendance/Absent</span>
+                            </a>
+                            
+
+                            <!-- Teacher-->
+                            <a href="teachercontacts.html" class="dropdown-item">
+                                <i class="fe-user mr-1"></i>
+                                <span>Teacher</span>
+                            </a>
+
+                            <!-- Setting-->
+                            <a href="soon.html" class="dropdown-item">
+                                <i class="fe-settings mr-1"></i>
+                                <span>Settings</span>
+                            </a>
+
+                            <div class="dropdown-divider"></div>
+
+                            <!-- help-->
+                            <a href="soon.html" class="dropdown-item">
+                                <i class="fe-headphones mr-1"></i>
+                                <span>Help & Support</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- end Topbar -->
+
+            <!-- ========== Left Sidebar Start ========== -->
+            <div class="left-side-menu">
+
+                <div class="slimscroll-menu">
+
+                    <!--- Sidemenu -->
+                    <div id="sidebar-menu">
+
+                        <ul class="metismenu" id="side-menu">
+
+                            <li class="menu-title">Information</li>
+
+                            <li>
+                                <a href="javascript: void(0);">
+                                    <i class="fe-airplay"></i>
+                                    <span class="badge badge-success badge-pill float-right">3</span>
+                                    <span> Dashboards </span>
+                                </a>
+                                <ul class="nav-second-level" aria-expanded="false">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="user2.html">Child 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="user3.html">Child 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            </ul>
+
+                    </div>
+                    <!-- End Sidebar -->
+
+                    <div class="clearfix"></div>
+
+                </div>
+                <!-- Sidebar -left -->
+
+            </div>
+            <!-- Left Sidebar End -->
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">STUDIED</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Profile</a></li>
+                                            <li class="breadcrumb-item active">Profile Page</li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">Profile</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+
+                        <div class="row">
+                            <div class="col-lg-4 col-xl-4">
+                                <div class="card-box text-center">
+                                    <img src="assets/images/users/profile-1.jpg" class="rounded-circle avatar-lg img-thumbnail"
+                                        alt="profile-image">
+
+                                    <h4 class="mb-0">THIRAWIT CHITPONG</h4>
+                                    <p class="text-muted">@wtrwc_</p>
+
+                                    <button type="button" class="btn btn-success btn-xs waves-effect mb-2 waves-light">Follow</button>
+                                    <button type="button" class="btn btn-danger btn-xs waves-effect mb-2 waves-light">Message</button>
+
+                                    <div class="text-left mt-3">
+                                        <h4 class="font-13 text-uppercase">About Me :</h4>
+                                        <p class="text-muted font-13 mb-3">
+                                            Hi I'm Thirawit Chitpong, Digital Media Engineering,
+                                            Faculty of Engineering,
+                                            Khon Kaen University.
+                                        </p>
+                                        <p class="text-muted mb-2 font-13"><strong>Full Name :</strong> <span class="ml-2">Thirawit Chitpong</span></p>
+
+                                        <p class="text-muted mb-2 font-13"><strong>Mobile :</strong><span class="ml-2">(+66)-6-3541-5551</span></p>
+
+                                        <p class="text-muted mb-2 font-13"><strong>Email :</strong> <span class="ml-2 ">thirawit_c@kkumail.com</span></p>
+
+                                        <p class="text-muted mb-1 font-13"><strong>Student ID:</strong> <span class="ml-2">603040955-8</span></p>
+                                    </div>
+
+                                    <ul class="social-list list-inline mt-3 mb-0">
+                                        <li class="list-inline-item">
+                                            <a href="https://www.facebook.com/trwc999" class="social-list-item border-primary text-primary"><i
+                                                    class="mdi mdi-facebook"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="mailto:thirawit_c@kkumail.com" class="social-list-item border-danger text-danger"><i
+                                                    class="mdi mdi-google"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="https://twitter.com" class="social-list-item border-info text-info"><i
+                                                    class="mdi mdi-twitter"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="https://github.com/Thirawit018/DEMO_DMEPRO" class="social-list-item border-secondary text-secondary"><i
+                                                    class="mdi mdi-github-circle"></i></a>
+                                        </li>
+                                    </ul>
+                                </div> <!-- end card-box -->
+
+                                <div class="card-box">
+                                    <h4 class="header-title mb-3">NOTE</h4>
+
+                                    <div class="inbox-widget slimscroll" style="max-height: 310px;">
+                                        <div class="inbox-item">
+                                            <div class="inbox-item-img"><img src="assets/images/users/user-2.jpg" class="rounded-circle" alt=""></div>
+                                            <p class="inbox-item-author">Teacher A</p>
+                                            <p class="inbox-item-text">Class today 09:00</p>
+                                            <p class="inbox-item-date">
+                                                <a href="user2.html" class="btn btn-sm btn-link text-info font-13"> @FHASAI </a>
+                                            </p>
+                                        </div>
+                                        <div class="inbox-item">
+                                            <div class="inbox-item-img"><img src="assets/images/users/user-3.jpg" class="rounded-circle" alt=""></div>
+                                            <p class="inbox-item-author">Teacher C</p>
+                                            <p class="inbox-item-text">Next English Class is online</p>
+                                            <p class="inbox-item-date">
+                                                <a href="user3.html" class="btn btn-sm btn-link text-info font-13"> @SAIFHA </a>
+                                            </p>
+                                        </div>
+                                        
+                                        
+
+                                        
+                                    </div> <!-- end inbox-widget -->
+
+                                </div> <!-- end card-box-->
+
+                            </div> <!-- end col-->
+
+                            <div class="col-lg-8 col-xl-8">
+                                <div class="card-box">
+                                    <ul class="nav nav-pills navtab-bg nav-justified">
+                                        <li class="nav-item">
+                                            <a href="#aboutme" data-toggle="tab" aria-expanded="false" class="nav-link">
+                                                Progess
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="nav-item">
+                                            <a href="#settings" data-toggle="tab" aria-expanded="false" class="nav-link">
+                                                Settings
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div class="tab-pane" id="aboutme">
+
+                                            <h5 class="mb-4 text-uppercase"><i class="mdi mdi-briefcase mr-1"></i>
+                                                Now Activity</h5>
+
+                                            <ul class="list-unstyled timeline-sm">
+                                                <li class="timeline-sm-item">
+                                                    <span class="timeline-sm-date">Logbook</span>
+                                                    <h5 class="mt-0 mb-1">DME Project</h5>
+                                                    <p>Google Classroom</p>
+                                                    <p class="text-muted mt-2">logbook 1-5.</p>
+
+                                                </li>
+                                                <li class="timeline-sm-item">
+                                                    <span class="timeline-sm-date">XD DEMO</span>
+                                                    <h5 class="mt-0 mb-1">DME Project</h5>
+                                                    <p>Adobe Inc.</p>
+                                                    <p class="text-muted mt-2">XD Demo Disign.</p>
+                                                </li>
+                                                <li class="timeline-sm-item">
+                                                    <span class="timeline-sm-date">HTML</span>
+                                                    <h5 class="mt-0 mb-1">DME Project</h5>
+                                                    <p>Studie Project</p>
+                                                    <p class="text-muted mt-2 mb-0">Studie Webapp Project is in Progress</p>
+                                                </li>
+                                            </ul>
+
+                                            <h5 class="mb-3 mt-4 text-uppercase"><i class="mdi mdi-cards-variant mr-1"></i>
+                                                Projects</h5>
+                                            <div class="table-responsive">
+                                                <table class="table table-borderless mb-0">
+                                                    <thead class="thead-light">
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Project Name</th>
+                                                            <th>Start Date</th>
+                                                            <th>Due Date</th>
+                                                            <th>Status</th>
+                                                            <th>Addvisor</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Final Project DME</td>
+                                                            <td>17/12/2020</td>
+                                                            <td>03/05/2021</td>
+                                                            <td><span class="badge badge-info">Work in Progress</span></td>
+                                                            <td>Assoc. Prof. Kanda Saikaew,
+                                                                Asst. Prof. Jiradej Ponsawat.</td>
+                                                        </tr>
+                                                        
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                        </div> <!-- end tab-pane -->
+                                        <!-- end about me section content -->
+
+                                        <div class="tab-pane show active" id="timeline">
+
+                                            <!-- comment box -->
+                                            <form action="#" class="comment-area-box mt-2 mb-3">
+                                                <span class="input-icon">
+                                                    <textarea rows="3" class="form-control" placeholder="Write something..."></textarea>
+                                                </span>
+                                                <div class="comment-area-btn">
+                                                    <div class="float-right">
+                                                        <button type="submit" class="btn btn-sm btn-dark waves-effect waves-light">Post</button>
+                                                    </div>
+                                                    <div>
+                                                        <a href="#" class="btn btn-sm btn-light text-black-50"><i class="far fa-user"></i></a>
+                                                        <a href="#" class="btn btn-sm btn-light text-black-50"><i class="fa fa-map-marker-alt"></i></a>
+                                                        <a href="#" class="btn btn-sm btn-light text-black-50"><i class="fa fa-camera"></i></a>
+                                                        <a href="#" class="btn btn-sm btn-light text-black-50"><i class="far fa-smile"></i></a>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <!-- end comment box -->
+
+                                            
+                                        <div class="tab-pane" id="settings">
+                                            <form>
+                                                <h5 class="mb-4 text-uppercase"><i class="mdi mdi-account-circle mr-1"></i> Personal Info</h5>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="firstname">First Name</label>
+                                                            <input type="text" class="form-control" id="firstname" placeholder="Enter first name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="lastname">Last Name</label>
+                                                            <input type="text" class="form-control" id="lastname" placeholder="Enter last name">
+                                                        </div>
+                                                    </div> <!-- end col -->
+                                                </div> <!-- end row -->
+
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <label for="userbio">Bio</label>
+                                                            <textarea class="form-control" id="userbio" rows="4" placeholder="Write something..."></textarea>
+                                                        </div>
+                                                    </div> <!-- end col -->
+                                                </div> <!-- end row -->
+
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="useremail">Email Address</label>
+                                                            <input type="email" class="form-control" id="useremail" placeholder="Enter email">
+                                                            <span class="form-text text-muted"><small>If you want to change email please <a href="javascript: void(0);">click</a> here.</small></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="userpassword">Password</label>
+                                                            <input type="password" class="form-control" id="userpassword" placeholder="Enter password">
+                                                            <span class="form-text text-muted"><small>If you want to change password please <a href="javascript: void(0);">click</a> here.</small></span>
+                                                        </div>
+                                                    </div> <!-- end col -->
+                                                </div> <!-- end row -->
+
+                                                <h5 class="mb-3 text-uppercase bg-light p-2"><i class="mdi mdi-office-building mr-1"></i> Address Info</h5>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="companyname">Address Name</label>
+                                                            <input type="text" class="form-control" id="Addressname" placeholder="Enter address name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="cwebsite">Postal Code</label>
+                                                            <input type="text" class="form-control" id="Postal" placeholder="Enter Postal Code">
+                                                        </div>
+                                                    </div> <!-- end col -->
+                                                </div> <!-- end row -->
+
+                                                <h5 class="mb-3 text-uppercase bg-light p-2"><i class="mdi mdi-earth mr-1"></i> Social</h5>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="social-fb">Facebook</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i class="fab fa-facebook-square"></i></span>
+                                                                </div>
+                                                                <input type="text" class="form-control" id="social-fb" placeholder="Url">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="social-tw">Twitter</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i class="fab fa-twitter"></i></span>
+                                                                </div>
+                                                                <input type="text" class="form-control" id="social-tw" placeholder="Username">
+                                                            </div>
+                                                        </div>
+                                                    </div> <!-- end col -->
+                                                </div> <!-- end row -->
+
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="social-insta">Instagram</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i class="fab fa-instagram"></i></span>
+                                                                </div>
+                                                                <input type="text" class="form-control" id="social-insta" placeholder="Url">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="social-lin">Linkedin</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i class="fab fa-linkedin"></i></span>
+                                                                </div>
+                                                                <input type="text" class="form-control" id="social-lin" placeholder="Url">
+                                                            </div>
+                                                        </div>
+                                                    </div> <!-- end col -->
+                                                </div> <!-- end row -->
+
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="social-sky">Skype</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i class="fab fa-skype"></i></span>
+                                                                </div>
+                                                                <input type="text" class="form-control" id="social-sky" placeholder="@username">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="social-gh">Github</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i class="fab fa-github"></i></span>
+                                                                </div>
+                                                                <input type="text" class="form-control" id="social-gh" placeholder="Username">
+                                                            </div>
+                                                        </div>
+                                                    </div> <!-- end col -->
+                                                </div> <!-- end row -->
+                                                
+                                                <div class="text-right">
+                                                    <button type="submit" class="btn btn-success waves-effect waves-light mt-2"><i class="mdi mdi-content-save"></i> Save</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <!-- end settings content-->
+
+                                    </div> <!-- end tab-content -->
+                                </div> <!-- end card-box-->
+
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row-->
+
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                2021 &copy; KKU <a href="">Studied</a> 
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-md-right footer-links d-none d-sm-block">
+                                    <a href="soon.html">About Us</a>
+                                    <a href="soon.html">Help</a>
+                                    <a href="soon.html">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+
+        
+
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+
+    </body>
+
+</html>
